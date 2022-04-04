@@ -1,0 +1,14 @@
+[class*="col-"] {
+    padding: 3px;
+}
+
+.txt-box {
+    min-height: 50px;
+    background-color: rgb(0, 100, 250);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
