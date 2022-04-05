@@ -18,6 +18,19 @@
 }
 
 /* -------- COLUMNS -------- */
+
+/* .col-j {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+colonna jolly che può crescere */
+
+/* [class*="col-"] {
+    flex: 0 0 auto;
+}
+con questa gli impediamo di crescere/ridursi */
+
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
